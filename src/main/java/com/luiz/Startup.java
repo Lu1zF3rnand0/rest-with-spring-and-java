@@ -1,13 +1,13 @@
-package com.luiz.restwithspringandjava;
+package com.luiz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestWithSpringAndJavaApplication {
+public class Startup {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestWithSpringAndJavaApplication.class, args);
+		SpringApplication.run(Startup.class, args);
 	}
 
 }
